@@ -1,0 +1,31 @@
+name: Repository CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate repository
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Validate JSON metadata
+        shell: bash
+        run: |
+          for file in *.json; do
+            jq empty "$file"
+          done
+
+      - name: Check whitespace errors
+        run: git diff --check
