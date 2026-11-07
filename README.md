@@ -14,18 +14,18 @@ Applications are reviewed individually. Meeting the suggested criteria does not 
 
 AI-assisted contributions are welcome when the contributor understands, reviews, tests, and takes responsibility for the submitted work.
 
-The machine-readable role policy is available in [`roles.json`](roles.json). Changes to the role policy must be proposed through a pull request.
+The human-readable role and permission policy is available in [`PERMISSIONS.md`](PERMISSIONS.md). The machine-readable role data is available in [`roles.json`](roles.json). Changes to either policy file must be proposed through a pull request.
 
-## Community roles
+## Role summary
 
-- `Lab Founder` is reserved for the founder and owner of AxolotlBucketLabs. It cannot be applied for.
-- `Lab Associate` is a trusted co-founder or administrator who helps manage the organization, its projects, and its members. It is assigned by invitation from the Lab Founder.
-- `Lab Member` is an official member of the GitHub organization. Repository access is granted separately according to project needs and established permissions. Applications are accepted.
-- `Lab Maintainer` is responsible for the ongoing development, maintenance, and quality of at least one organization project. The role is project-specific and does not automatically grant organization administration privileges.
-- `Lab Collaborator` is a trusted external collaborator who actively contributes to one or more organization projects and may receive repository-level access. Contribution quality and trust matter more than a fixed number of pull requests.
-- `Lab Contributor` is a community member who has made at least one meaningful contribution to an organization project. A trivial change made only to obtain a role does not qualify.
+- `Lab Founder` is reserved for the founder and owner of AxolotlBucketLabs.
+- `Lab Associate` is a trusted administrator who helps manage the organization by invitation.
+- `Lab Member` is an official GitHub organization member whose repository access is granted separately.
+- `Lab Maintainer` is responsible for the ongoing maintenance of at least one organization project.
+- `Lab Collaborator` is an external contributor with access to selected organization repositories.
+- `Lab Contributor` is a community member who has made a meaningful contribution to an organization project.
 
-Members may hold multiple roles when their responsibilities justify it. Organization membership, project maintenance, repository access, and Discord roles are separate decisions.
+Read [`PERMISSIONS.md`](PERMISSIONS.md) for the full responsibilities, application criteria, and permission boundaries. Members may hold multiple roles when their responsibilities justify it.
 
 ## Review principles
 

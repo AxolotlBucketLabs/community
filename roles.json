@@ -1,6 +1,7 @@
 {
   "schemaVersion": 1,
   "organization": "AxolotlBucketLabs",
+  "permissionsDocument": "PERMISSIONS.md",
   "roles": [
     {
       "id": "lab-founder",
