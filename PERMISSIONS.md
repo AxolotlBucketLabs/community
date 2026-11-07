@@ -21,6 +21,7 @@ Roles describe responsibility and trust. A role does not automatically grant eve
 | --- | --- | --- | --- | --- |
 | `Lab Founder` | Organization | Founder only. | Organization owner. | Owns the organization and makes final decisions about its direction, settings, members, and projects. |
 | `Lab Associate` | Organization | Invitation only. | Organization member with delegated access where needed. This role does not automatically make the person an owner. | Helps manage the organization, projects, applications, and members. |
+| `Lab Fellow` | Recognition | Honorary assignment by the Lab Founder or Lab Associate. | None. | Recognizes a person who has earned broad respect from the organization's leadership and project members. This role has no administrative or project responsibility. |
 | `Lab Member` | Organization | Invitation or approved application. | Organization member. The current base repository permission is `No permission`. Explicit team or repository access is required. | Participates in the organization and contributes to its projects. |
 | `Lab Maintainer` | Project | Approved application or invitation. | Project-specific access based on the repository need. `Maintain` or `Write` may be appropriate, while `Admin` requires a separate decision. | Maintains the development, quality, issues, pull requests, and releases of an assigned project. |
 | `Lab Collaborator` | Project | Approved application or invitation. | Outside collaborator with access only to selected repositories. | Contributes regularly to a project without becoming an organization member by default. |
@@ -39,6 +40,12 @@ The founder controls organization ownership, billing, organization settings, mem
 `Lab Associate` is a trusted co-founder or administrator who helps manage the organization, its projects, and its members. It is assigned by the Lab Founder only.
 
 The role requires demonstrated trust, sound judgment, reliable communication, and a willingness to take responsibility for organization work. An associate should receive only the GitHub and Discord permissions needed for the delegated responsibilities.
+
+### Lab Fellow
+
+`Lab Fellow` is an honorary recognition role for a person who has earned broad respect from the Lab Founder, Lab Associates, Lab Members, and Lab Maintainers. It is assigned by the Lab Founder or Lab Associate and is not open to applications.
+
+This role grants no Discord permission, private channel access, GitHub organization membership, repository access, project responsibility, or administrative authority. It exists only to recognize the person's standing in the community.
 
 ### Lab Member
 

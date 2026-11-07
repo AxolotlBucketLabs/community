@@ -25,6 +25,18 @@
       ]
     },
     {
+      "id": "lab-fellow",
+      "name": "Lab Fellow",
+      "scope": "recognition",
+      "applicationAllowed": false,
+      "assignment": "honorary",
+      "description": "An honorary recognition role for a person who has earned broad respect from the Lab Founder, Lab Associates, Lab Members, and Lab Maintainers.",
+      "requirements": [
+        "Broad recognition from the organization or its community.",
+        "No role-specific administrative or project responsibility."
+      ]
+    },
+    {
       "id": "lab-member",
       "name": "Lab Member",
       "scope": "organization",

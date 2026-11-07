@@ -20,6 +20,7 @@ The human-readable role and permission policy is available in [`PERMISSIONS.md`]
 
 - `Lab Founder` is reserved for the founder and owner of AxolotlBucketLabs.
 - `Lab Associate` is a trusted administrator who helps manage the organization by invitation.
+- `Lab Fellow` is an honorary recognition role for a person widely respected by the organization's leadership and project members. It grants no organization or project access.
 - `Lab Member` is an official GitHub organization member whose repository access is granted separately.
 - `Lab Maintainer` is responsible for the ongoing maintenance of at least one organization project.
 - `Lab Collaborator` is an external contributor with access to selected organization repositories.
