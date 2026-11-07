@@ -42,12 +42,16 @@
       "scope": "organization",
       "applicationAllowed": true,
       "assignment": "manual-review",
-      "description": "An official member of the GitHub organization. Repository access is granted separately according to project needs and established permissions.",
+      "description": "A trusted official member of the GitHub organization. Repository access is granted separately according to project needs and established permissions.",
       "requirements": [
-        "Basic development experience.",
-        "Trustworthy collaboration.",
-        "Willingness to contribute.",
+        "Normally, at least two meaningful merged pull requests to AxolotlBucketLabs projects.",
+        "Contributions that provide real value and are not trivial changes made only to obtain the role.",
+        "Trustworthy communication and a willingness to participate over time.",
         "Responsible review and testing of AI-assisted work."
+      ],
+      "exceptions": [
+        "An approved project maintainer or a person with substantial ongoing contributions that are not represented by pull requests may be considered after manual review.",
+        "An exception does not guarantee approval and requires a specific reason related to the person's contribution or responsibility."
       ]
     },
     {

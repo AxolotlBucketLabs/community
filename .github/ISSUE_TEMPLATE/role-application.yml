@@ -12,6 +12,8 @@ body:
 
         Applications are reviewed individually. Please do not include private or sensitive information in this public issue.
 
+        Lab Member applications normally require links to at least two meaningful pull requests merged into AxolotlBucketLabs projects. If you are applying through an exception, explain the relevant project responsibility or ongoing contribution instead.
+
   - type: dropdown
     id: role
     attributes:
@@ -38,7 +40,7 @@ body:
     id: experience
     attributes:
       label: Relevant experience
-      description: Tell us about the projects, plugins, libraries, or contributions that are relevant to this role.
+      description: Tell us about the projects, plugins, libraries, or contributions that are relevant to this role. Lab Member applicants should include at least two meaningful merged pull requests or explain the reason for an exception.
       placeholder: Include links to public repositories, pull requests, releases, or other useful evidence.
     validations:
       required: true
