@@ -1,0 +1,71 @@
+name: Role application
+description: Apply for an eligible AxolotlBucketLabs community role.
+title: "[Role application] "
+labels:
+  - role application
+  - pending review
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest in AxolotlBucketLabs.
+
+        Applications are reviewed individually. Please do not include private or sensitive information in this public issue.
+
+  - type: dropdown
+    id: role
+    attributes:
+      label: Role
+      description: Select the role you would like to apply for.
+      options:
+        - Lab Member
+        - Lab Maintainer
+        - Lab Collaborator
+        - Lab Contributor
+    validations:
+      required: true
+
+  - type: input
+    id: github-profile
+    attributes:
+      label: GitHub profile
+      description: Provide your public GitHub profile URL.
+      placeholder: https://github.com/username
+    validations:
+      required: true
+
+  - type: textarea
+    id: experience
+    attributes:
+      label: Relevant experience
+      description: Tell us about the projects, plugins, libraries, or contributions that are relevant to this role.
+      placeholder: Include links to public repositories, pull requests, releases, or other useful evidence.
+    validations:
+      required: true
+
+  - type: textarea
+    id: contribution
+    attributes:
+      label: How would you like to help?
+      description: Explain what you would like to contribute to AxolotlBucketLabs or which project you would like to help maintain.
+    validations:
+      required: true
+
+  - type: textarea
+    id: project-proposal
+    attributes:
+      label: Project proposal
+      description: If you are applying to maintain a project, describe the project and include its source repository, license, and maintenance plan.
+      placeholder: Leave this empty when it does not apply.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Applicant confirmation
+      options:
+        - label: I understand that this application is public and should not contain sensitive information.
+          required: true
+        - label: I understand that submitting an application does not guarantee approval or GitHub access.
+          required: true

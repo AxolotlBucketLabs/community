@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "organization": "AxolotlBucketLabs",
+  "roles": [
+    {
+      "id": "lab-founder",
+      "name": "Lab Founder",
+      "scope": "organization",
+      "applicationAllowed": false,
+      "assignment": "founder-only",
+      "description": "The founder and owner of AxolotlBucketLabs.",
+      "requirements": []
+    },
+    {
+      "id": "lab-associate",
+      "name": "Lab Associate",
+      "scope": "organization",
+      "applicationAllowed": false,
+      "assignment": "invitation-only",
+      "description": "A trusted co-founder or administrator who helps manage the organization, its projects, and its members.",
+      "requirements": [
+        "Demonstrated trust and sound judgment.",
+        "Willingness to help manage organization responsibilities."
+      ]
+    },
+    {
+      "id": "lab-member",
+      "name": "Lab Member",
+      "scope": "organization",
+      "applicationAllowed": true,
+      "assignment": "manual-review",
+      "description": "An official member of the GitHub organization. Repository access is granted separately according to project needs and established permissions.",
+      "requirements": [
+        "Basic development experience.",
+        "Trustworthy collaboration.",
+        "Willingness to contribute.",
+        "Responsible review and testing of AI-assisted work."
+      ]
+    },
+    {
+      "id": "lab-maintainer",
+      "name": "Lab Maintainer",
+      "scope": "project",
+      "applicationAllowed": true,
+      "assignment": "manual-review",
+      "description": "A person responsible for the ongoing development, maintenance, and quality of at least one organization project.",
+      "requirements": [
+        "A suitable organization project or an approved project proposal.",
+        "Relevant technical experience or demonstrated project work.",
+        "Willingness to maintain the project over time.",
+        "An appropriate license for any proposed fork."
+      ]
+    },
+    {
+      "id": "lab-collaborator",
+      "name": "Lab Collaborator",
+      "scope": "project",
+      "applicationAllowed": true,
+      "assignment": "manual-review",
+      "description": "A trusted external collaborator who actively contributes to specific organization projects and may receive repository-level access.",
+      "requirements": [
+        "Consistent and meaningful contributions.",
+        "Reliable communication with project maintainers.",
+        "A demonstrated need for repository-level access."
+      ]
+    },
+    {
+      "id": "lab-contributor",
+      "name": "Lab Contributor",
+      "scope": "community",
+      "applicationAllowed": true,
+      "assignment": "manual-review",
+      "description": "A community member who has made a meaningful contribution to at least one organization project.",
+      "requirements": [
+        "At least one meaningful merged pull request or equivalent project contribution.",
+        "A contribution that provides real value to the project.",
+        "No trivial change made only to obtain a role."
+      ]
+    }
+  ]
+}

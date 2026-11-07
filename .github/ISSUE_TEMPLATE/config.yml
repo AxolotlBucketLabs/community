@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: AxolotlBucketLabs Discord
+    url: https://discord.gg/Pk4FrNvHnM
+    about: Ask questions or discuss a private application with the community.
+  - name: AxolotlBucketLabs on GitHub
+    url: https://github.com/AxolotlBucketLabs
+    about: Browse the organization's projects.
