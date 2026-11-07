@@ -14,7 +14,7 @@ Applications are reviewed individually. Meeting the suggested criteria does not 
 
 AI-assisted contributions are welcome when the contributor understands, reviews, tests, and takes responsibility for the submitted work.
 
-The human-readable role and permission policy is available in [`PERMISSIONS.md`](PERMISSIONS.md). The machine-readable role data is available in [`roles.json`](roles.json). Changes to either policy file must be proposed through a pull request.
+The human-readable role and permission policy is available in [`PERMISSIONS.md`](PERMISSIONS.md). The machine-readable role data is available in [`roles.json`](roles.json), while the current member registry is available in [`members.json`](members.json). Changes to these files must be proposed through a pull request.
 
 ## Role summary
 

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "organization": "AxolotlBucketLabs",
+  "members": [
+    {
+      "discord": "NhanAZ",
+      "github": "https://github.com/NhanAZ",
+      "roles": [
+        "lab-founder"
+      ]
+    },
+    {
+      "discord": "jeantkg",
+      "github": "https://github.com/jeantkg",
+      "roles": [
+        "lab-associate"
+      ]
+    },
+    {
+      "discord": "pupggers",
+      "github": "https://github.com/pupggers",
+      "roles": [
+        "lab-member"
+      ]
+    }
+  ]
+}
