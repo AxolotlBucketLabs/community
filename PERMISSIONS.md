@@ -2,7 +2,7 @@
 
 This document defines the responsibilities, application criteria, and permission boundaries for AxolotlBucketLabs roles.
 
-The machine-readable role data is stored in [`roles.json`](roles.json). Update both files in the same pull request when a role policy changes.
+The machine-readable role data is stored in [`roles.json`](roles.json). Current member assignments are stored in [`members.json`](members.json). Project responsibility and repository access are stored in [`projects.json`](projects.json) and explained in [`PROJECTS.md`](PROJECTS.md). Update the related files in the same pull request when a role or project policy changes.
 
 ## Permission model
 
@@ -20,7 +20,7 @@ Roles describe responsibility and trust. A role does not automatically grant eve
 | Role | Scope | Assignment | Default GitHub access | Main responsibility |
 | --- | --- | --- | --- | --- |
 | `Lab Founder` | Organization | Founder only. | Organization owner. | Owns the organization and makes final decisions about its direction, settings, members, and projects. |
-| `Lab Associate` | Organization | Invitation only. | Organization member with delegated access where needed. This role does not automatically make the person an owner. | Helps manage the organization, projects, applications, and members. |
+| `Lab Associate` | Organization | Invitation only. | Intended `Maintain` access to all organization repositories. This role does not automatically make the person an owner. | Helps manage the organization, projects, applications, and members. |
 | `Lab Fellow` | Recognition | Honorary assignment by the Lab Founder or Lab Associate. | None. | Recognizes a person who has earned broad respect from the organization's leadership and project members. This role has no administrative or project responsibility. |
 | `Lab Member` | Organization | Invitation or approved application. | Organization member. The current base repository permission is `No permission`. Explicit team or repository access is required. | Participates in the organization and contributes to its projects. |
 | `Lab Maintainer` | Project | Approved application or invitation. | Project-specific access based on the repository need. `Maintain` or `Write` may be appropriate, while `Admin` requires a separate decision. | Maintains the development, quality, issues, pull requests, and releases of an assigned project. |
@@ -37,7 +37,7 @@ The founder controls organization ownership, billing, organization settings, mem
 
 ### Lab Associate
 
-`Lab Associate` is a trusted co-founder or administrator who helps manage the organization, its projects, and its members. It is assigned by the Lab Founder only.
+`Lab Associate` is a trusted co-founder or administrator who helps manage the organization, its projects, and its members. It is assigned by the Lab Founder only. The intended repository policy gives this role `Maintain` access to all organization repositories without making the person a GitHub organization owner.
 
 The role requires demonstrated trust, sound judgment, reliable communication, and a willingness to take responsibility for organization work. An associate should receive only the GitHub and Discord permissions needed for the delegated responsibilities.
 
@@ -61,7 +61,7 @@ Membership does not automatically grant access to every repository. The current 
 
 An applicant may propose an existing plugin or library for maintenance by AxolotlBucketLabs. The project must fit the organization, have suitable licensing, and have a realistic maintenance plan. A maintainer should be able to review contributions, make technical decisions, keep the project healthy, and communicate its compatibility and release status.
 
-The GitHub permission is assigned per repository. A maintainer does not receive `Admin` access by default.
+The GitHub permission is assigned per repository and recorded in [`projects.json`](projects.json). A maintainer does not receive `Admin` access by default.
 
 ### Lab Collaborator
 

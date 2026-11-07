@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "organization": "AxolotlBucketLabs",
+  "permissionLevels": [
+    "admin",
+    "maintain",
+    "write",
+    "triage",
+    "read",
+    "none"
+  ],
+  "organizationAccessPolicy": [
+    {
+      "role": "lab-founder",
+      "scope": "all-projects",
+      "repositoryPermission": "admin"
+    },
+    {
+      "role": "lab-associate",
+      "scope": "all-projects",
+      "repositoryPermission": "maintain"
+    },
+    {
+      "role": "lab-member",
+      "scope": "no-default-access",
+      "repositoryPermission": "none"
+    },
+    {
+      "role": "lab-maintainer",
+      "scope": "assigned-projects",
+      "repositoryPermission": "maintain"
+    },
+    {
+      "role": "lab-collaborator",
+      "scope": "selected-projects",
+      "repositoryPermission": "write"
+    },
+    {
+      "role": "lab-contributor",
+      "scope": "no-default-access",
+      "repositoryPermission": "none"
+    },
+    {
+      "role": "lab-fellow",
+      "scope": "no-default-access",
+      "repositoryPermission": "none"
+    }
+  ],
+  "projects": [
+    {
+      "id": "github",
+      "repository": "AxolotlBucketLabs/.github",
+      "url": "https://github.com/AxolotlBucketLabs/.github",
+      "type": "organization-config",
+      "status": "active",
+      "assignments": [
+        {
+          "member": "NhanAZ",
+          "role": "lab-founder",
+          "repositoryPermission": "admin"
+        },
+        {
+          "member": "jeantkg",
+          "role": "lab-associate",
+          "repositoryPermission": "maintain"
+        }
+      ]
+    },
+    {
+      "id": "arithmexp",
+      "repository": "AxolotlBucketLabs/arithmexp",
+      "url": "https://github.com/AxolotlBucketLabs/arithmexp",
+      "type": "virion",
+      "status": "active",
+      "assignments": [
+        {
+          "member": "NhanAZ",
+          "role": "lab-founder",
+          "repositoryPermission": "admin"
+        },
+        {
+          "member": "jeantkg",
+          "role": "lab-associate",
+          "repositoryPermission": "maintain"
+        }
+      ]
+    },
+    {
+      "id": "await-generator",
+      "repository": "AxolotlBucketLabs/await-generator",
+      "url": "https://github.com/AxolotlBucketLabs/await-generator",
+      "type": "library",
+      "status": "active",
+      "assignments": [
+        {
+          "member": "NhanAZ",
+          "role": "lab-founder",
+          "repositoryPermission": "admin"
+        },
+        {
+          "member": "jeantkg",
+          "role": "lab-associate",
+          "repositoryPermission": "maintain"
+        }
+      ]
+    },
+    {
+      "id": "axolotl-pm-skill",
+      "repository": "AxolotlBucketLabs/axolotl-pm-skill",
+      "url": "https://github.com/AxolotlBucketLabs/axolotl-pm-skill",
+      "type": "skill",
+      "status": "active",
+      "assignments": [
+        {
+          "member": "NhanAZ",
+          "role": "lab-founder",
+          "repositoryPermission": "admin"
+        },
+        {
+          "member": "jeantkg",
+          "role": "lab-associate",
+          "repositoryPermission": "maintain"
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "repository": "AxolotlBucketLabs/community",
+      "url": "https://github.com/AxolotlBucketLabs/community",
+      "type": "community",
+      "status": "active",
+      "assignments": [
+        {
+          "member": "NhanAZ",
+          "role": "lab-founder",
+          "repositoryPermission": "admin"
+        },
+        {
+          "member": "jeantkg",
+          "role": "lab-associate",
+          "repositoryPermission": "maintain"
+        }
+      ]
+    },
+    {
+      "id": "devtools",
+      "repository": "AxolotlBucketLabs/DevTools",
+      "url": "https://github.com/AxolotlBucketLabs/DevTools",
+      "type": "tool",
+      "status": "active",
+      "assignments": [
+        {
+          "member": "NhanAZ",
+          "role": "lab-founder",
+          "repositoryPermission": "admin"
+        },
+        {
+          "member": "jeantkg",
+          "role": "lab-associate",
+          "repositoryPermission": "maintain"
+        }
+      ]
+    },
+    {
+      "id": "formapi",
+      "repository": "AxolotlBucketLabs/FormAPI",
+      "url": "https://github.com/AxolotlBucketLabs/FormAPI",
+      "type": "library",
+      "status": "active",
+      "assignments": [
+        {
+          "member": "NhanAZ",
+          "role": "lab-founder",
+          "repositoryPermission": "admin"
+        },
+        {
+          "member": "jeantkg",
+          "role": "lab-associate",
+          "repositoryPermission": "maintain"
+        }
+      ]
+    },
+    {
+      "id": "personaskin",
+      "repository": "AxolotlBucketLabs/PersonaSkin",
+      "url": "https://github.com/AxolotlBucketLabs/PersonaSkin",
+      "type": "plugin",
+      "status": "active",
+      "assignments": [
+        {
+          "member": "NhanAZ",
+          "role": "lab-founder",
+          "repositoryPermission": "admin"
+        },
+        {
+          "member": "jeantkg",
+          "role": "lab-associate",
+          "repositoryPermission": "maintain"
+        }
+      ]
+    },
+    {
+      "id": "pmforms",
+      "repository": "AxolotlBucketLabs/pmforms",
+      "url": "https://github.com/AxolotlBucketLabs/pmforms",
+      "type": "library",
+      "status": "active",
+      "assignments": [
+        {
+          "member": "NhanAZ",
+          "role": "lab-founder",
+          "repositoryPermission": "admin"
+        },
+        {
+          "member": "jeantkg",
+          "role": "lab-associate",
+          "repositoryPermission": "maintain"
+        }
+      ]
+    },
+    {
+      "id": "purechat",
+      "repository": "AxolotlBucketLabs/PureChat",
+      "url": "https://github.com/AxolotlBucketLabs/PureChat",
+      "type": "plugin",
+      "status": "active",
+      "assignments": [
+        {
+          "member": "NhanAZ",
+          "role": "lab-founder",
+          "repositoryPermission": "admin"
+        },
+        {
+          "member": "jeantkg",
+          "role": "lab-associate",
+          "repositoryPermission": "maintain"
+        }
+      ]
+    },
+    {
+      "id": "pureperms",
+      "repository": "AxolotlBucketLabs/PurePerms",
+      "url": "https://github.com/AxolotlBucketLabs/PurePerms",
+      "type": "plugin",
+      "status": "active",
+      "assignments": [
+        {
+          "member": "NhanAZ",
+          "role": "lab-founder",
+          "repositoryPermission": "admin"
+        },
+        {
+          "member": "jeantkg",
+          "role": "lab-associate",
+          "repositoryPermission": "maintain"
+        }
+      ]
+    },
+    {
+      "id": "scorehud",
+      "repository": "AxolotlBucketLabs/ScoreHud",
+      "url": "https://github.com/AxolotlBucketLabs/ScoreHud",
+      "type": "plugin",
+      "status": "active",
+      "assignments": [
+        {
+          "member": "NhanAZ",
+          "role": "lab-founder",
+          "repositoryPermission": "admin"
+        },
+        {
+          "member": "jeantkg",
+          "role": "lab-associate",
+          "repositoryPermission": "maintain"
+        }
+      ]
+    },
+    {
+      "id": "simplepackethandler",
+      "repository": "AxolotlBucketLabs/SimplePacketHandler",
+      "url": "https://github.com/AxolotlBucketLabs/SimplePacketHandler",
+      "type": "virion",
+      "status": "active",
+      "assignments": [
+        {
+          "member": "NhanAZ",
+          "role": "lab-founder",
+          "repositoryPermission": "admin"
+        },
+        {
+          "member": "jeantkg",
+          "role": "lab-associate",
+          "repositoryPermission": "maintain"
+        }
+      ]
+    }
+  ]
+}
