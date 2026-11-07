@@ -6,7 +6,7 @@ AxolotlBucketLabs maintains community forks of PocketMine-MP plugins and librari
 
 ## Applying for a role
 
-Open a [role application issue](https://github.com/AxolotlBucketLabs/community/issues/new?template=role-application.yml) and select the role you want to apply for. Include your GitHub profile, relevant contributions or experience, and what you would like to help with.
+Open a [role application issue](https://github.com/AxolotlBucketLabs/community/issues/new?template=role-application.yml) and select the role you want to apply for. Include your exact Discord username, relevant contributions or experience, and what you would like to help with. Link public repositories, pull requests, releases, or other useful evidence where possible. The GitHub account that opens the issue is visible to maintainers.
 
 Application issues are public. Do not include passwords, private contact details, personal documents, or other sensitive information. Use the [Discord server](https://discord.gg/Pk4FrNvHnM) when a private discussion is needed.
 

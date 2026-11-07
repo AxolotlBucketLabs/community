@@ -87,7 +87,7 @@ This role does not grant GitHub repository access, organization membership, merg
 
 ## Application and review
 
-Apply through the [role application issue form](https://github.com/AxolotlBucketLabs/community/issues/new?template=role-application.yml). Include a public GitHub profile, relevant contributions or experience, and what you would like to help with.
+Apply through the [role application issue form](https://github.com/AxolotlBucketLabs/community/issues/new?template=role-application.yml). Include your exact Discord username, relevant contributions or experience, links to public work where possible, and what you would like to help with. The GitHub account that opens the issue is visible to maintainers.
 
 Application issues are public. Do not include passwords, private contact details, personal documents, or other sensitive information. Use the [Discord server](https://discord.gg/Pk4FrNvHnM) when a private discussion is needed.
 

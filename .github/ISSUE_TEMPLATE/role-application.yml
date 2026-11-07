@@ -28,11 +28,11 @@ body:
       required: true
 
   - type: input
-    id: github-profile
+    id: discord-username
     attributes:
-      label: GitHub profile
-      description: Provide your public GitHub profile URL.
-      placeholder: https://github.com/username
+      label: Discord username
+      description: Provide your exact Discord username so maintainers can match your application and contact you about the review.
+      placeholder: username
     validations:
       required: true
 
@@ -41,7 +41,7 @@ body:
     attributes:
       label: Relevant experience
       description: Tell us about the projects, plugins, libraries, or contributions that are relevant to this role. Lab Member applicants should include at least two meaningful merged pull requests or explain the reason for an exception.
-      placeholder: Include links to public repositories, pull requests, releases, or other useful evidence.
+      placeholder: Include links to public repositories, pull requests, releases, or other useful evidence. The GitHub account that opened this issue is visible to maintainers.
     validations:
       required: true
 
@@ -68,6 +68,8 @@ body:
       label: Applicant confirmation
       options:
         - label: I understand that this application is public and should not contain sensitive information.
+          required: true
+        - label: I understand that the Discord username I provide will be visible in this public issue.
           required: true
         - label: I understand that submitting an application does not guarantee approval or GitHub access.
           required: true
