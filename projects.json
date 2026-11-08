@@ -331,6 +331,25 @@
           "repositoryPermission": "maintain"
         }
       ]
+    },
+    {
+      "id": "npc",
+      "repository": "AxolotlBucketLabs/NPC",
+      "url": "https://github.com/AxolotlBucketLabs/NPC",
+      "type": "plugin",
+      "status": "active",
+      "assignments": [
+        {
+          "member": "NhanAZ",
+          "role": "lab-founder",
+          "repositoryPermission": "admin"
+        },
+        {
+          "member": "jeantkg",
+          "role": "lab-associate",
+          "repositoryPermission": "maintain"
+        }
+      ]
     }
   ]
 }
