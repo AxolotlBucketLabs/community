@@ -200,6 +200,25 @@
       ]
     },
     {
+      "id": "ui-api",
+      "repository": "AxolotlBucketLabs/UI-API",
+      "url": "https://github.com/AxolotlBucketLabs/UI-API",
+      "type": "library",
+      "status": "active",
+      "assignments": [
+        {
+          "member": "NhanAZ",
+          "role": "lab-founder",
+          "repositoryPermission": "admin"
+        },
+        {
+          "member": "jeantkg",
+          "role": "lab-associate",
+          "repositoryPermission": "maintain"
+        }
+      ]
+    },
+    {
       "id": "pmforms",
       "repository": "AxolotlBucketLabs/pmforms",
       "url": "https://github.com/AxolotlBucketLabs/pmforms",

@@ -45,7 +45,7 @@ The permission names follow GitHub repository roles. A repository administrator 
 
 ## Current project registry
 
-The organization currently has 13 active repositories in the registry.
+The organization currently has 14 active repositories in the registry.
 
 | Project | Type | Declared managers |
 | --- | --- | --- |
@@ -57,6 +57,7 @@ The organization currently has 13 active repositories in the registry.
 | [`DevTools`](https://github.com/AxolotlBucketLabs/DevTools) | Tool | NhanAZ with `Admin`, jeantkg with `Maintain` |
 | [`FormAPI`](https://github.com/AxolotlBucketLabs/FormAPI) | Library | NhanAZ with `Admin`, jeantkg with `Maintain` |
 | [`PersonaSkin`](https://github.com/AxolotlBucketLabs/PersonaSkin) | Plugin | NhanAZ with `Admin`, jeantkg with `Maintain` |
+| [`UI-API`](https://github.com/AxolotlBucketLabs/UI-API) | Library | NhanAZ with `Admin`, jeantkg with `Maintain` |
 | [`pmforms`](https://github.com/AxolotlBucketLabs/pmforms) | Library | NhanAZ with `Admin`, jeantkg with `Maintain` |
 | [`PureChat`](https://github.com/AxolotlBucketLabs/PureChat) | Plugin | NhanAZ with `Admin`, jeantkg with `Maintain` |
 | [`PurePerms`](https://github.com/AxolotlBucketLabs/PurePerms) | Plugin | NhanAZ with `Admin`, jeantkg with `Maintain` |
