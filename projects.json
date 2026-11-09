@@ -124,6 +124,25 @@
       ]
     },
     {
+      "id": "pocketmine-mp-code-style",
+      "repository": "AxolotlBucketLabs/pocketmine-mp-code-style",
+      "url": "https://github.com/AxolotlBucketLabs/pocketmine-mp-code-style",
+      "type": "skill",
+      "status": "active",
+      "assignments": [
+        {
+          "member": "NhanAZ",
+          "role": "lab-founder",
+          "repositoryPermission": "admin"
+        },
+        {
+          "member": "jeantkg",
+          "role": "lab-associate",
+          "repositoryPermission": "maintain"
+        }
+      ]
+    },
+    {
       "id": "community",
       "repository": "AxolotlBucketLabs/community",
       "url": "https://github.com/AxolotlBucketLabs/community",
