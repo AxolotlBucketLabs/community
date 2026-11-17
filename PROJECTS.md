@@ -45,13 +45,15 @@ The permission names follow GitHub repository roles. A repository administrator 
 
 ## Current project registry
 
-The organization currently has 17 active repositories in the registry.
+The organization currently has 20 active repositories in the registry.
 
 | Project | Type | Declared managers |
 | --- | --- | --- |
 | [`.github`](https://github.com/AxolotlBucketLabs/.github) | Organization configuration | NhanAZ with `Admin`, jeantkg with `Maintain` |
+| [`action-shellcheck`](https://github.com/AxolotlBucketLabs/action-shellcheck) | Tool | NhanAZ with `Admin`, jeantkg with `Maintain` |
 | [`arithmexp`](https://github.com/AxolotlBucketLabs/arithmexp) | Virion | NhanAZ with `Admin`, jeantkg with `Maintain` |
 | [`await-generator`](https://github.com/AxolotlBucketLabs/await-generator) | Library | NhanAZ with `Admin`, jeantkg with `Maintain` |
+| [`axolotl-bucket-labs-skill`](https://github.com/AxolotlBucketLabs/axolotl-bucket-labs-skill) | Skill | NhanAZ with `Admin`, jeantkg with `Maintain` |
 | [`axolotl-pm-skill`](https://github.com/AxolotlBucketLabs/axolotl-pm-skill) | Skill | NhanAZ with `Admin`, jeantkg with `Maintain` |
 | [`pocketmine-mp-code-style`](https://github.com/AxolotlBucketLabs/pocketmine-mp-code-style) | Skill | NhanAZ with `Admin`, jeantkg with `Maintain` |
 | [`community`](https://github.com/AxolotlBucketLabs/community) | Community | NhanAZ with `Admin`, jeantkg with `Maintain` |
@@ -59,6 +61,7 @@ The organization currently has 17 active repositories in the registry.
 | [`FormAPI`](https://github.com/AxolotlBucketLabs/FormAPI) | Library | NhanAZ with `Admin`, jeantkg with `Maintain` |
 | [`FormImagesFix`](https://github.com/AxolotlBucketLabs/FormImagesFix) | Plugin | NhanAZ with `Admin`, jeantkg with `Maintain` |
 | [`PersonaSkin`](https://github.com/AxolotlBucketLabs/PersonaSkin) | Plugin | NhanAZ with `Admin`, jeantkg with `Maintain` |
+| [`rulesets`](https://github.com/AxolotlBucketLabs/rulesets) | Organization configuration | NhanAZ with `Admin`, jeantkg with `Maintain` |
 | [`UI-API`](https://github.com/AxolotlBucketLabs/UI-API) | Library | NhanAZ with `Admin`, jeantkg with `Maintain` |
 | [`pmforms`](https://github.com/AxolotlBucketLabs/pmforms) | Library | NhanAZ with `Admin`, jeantkg with `Maintain` |
 | [`PureChat`](https://github.com/AxolotlBucketLabs/PureChat) | Plugin | NhanAZ with `Admin`, jeantkg with `Maintain` |

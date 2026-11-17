@@ -369,6 +369,63 @@
           "repositoryPermission": "maintain"
         }
       ]
+    },
+    {
+      "id": "action-shellcheck",
+      "repository": "AxolotlBucketLabs/action-shellcheck",
+      "url": "https://github.com/AxolotlBucketLabs/action-shellcheck",
+      "type": "tool",
+      "status": "active",
+      "assignments": [
+        {
+          "member": "NhanAZ",
+          "role": "lab-founder",
+          "repositoryPermission": "admin"
+        },
+        {
+          "member": "jeantkg",
+          "role": "lab-associate",
+          "repositoryPermission": "maintain"
+        }
+      ]
+    },
+    {
+      "id": "axolotl-bucket-labs-skill",
+      "repository": "AxolotlBucketLabs/axolotl-bucket-labs-skill",
+      "url": "https://github.com/AxolotlBucketLabs/axolotl-bucket-labs-skill",
+      "type": "skill",
+      "status": "active",
+      "assignments": [
+        {
+          "member": "NhanAZ",
+          "role": "lab-founder",
+          "repositoryPermission": "admin"
+        },
+        {
+          "member": "jeantkg",
+          "role": "lab-associate",
+          "repositoryPermission": "maintain"
+        }
+      ]
+    },
+    {
+      "id": "rulesets",
+      "repository": "AxolotlBucketLabs/rulesets",
+      "url": "https://github.com/AxolotlBucketLabs/rulesets",
+      "type": "organization-config",
+      "status": "active",
+      "assignments": [
+        {
+          "member": "NhanAZ",
+          "role": "lab-founder",
+          "repositoryPermission": "admin"
+        },
+        {
+          "member": "jeantkg",
+          "role": "lab-associate",
+          "repositoryPermission": "maintain"
+        }
+      ]
     }
   ]
 }
